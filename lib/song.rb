@@ -42,14 +42,14 @@ class Song
     end
 
     def Song.new_from_filename(info)
-      
+
       separated = info.remove(".mp3").split("-")
       artist = separated[0]
       title = separated[1]
 
-      song = self.new 
+      song = self.new
       song.name = title
-      song.artist_name = artist 
+      song.artist_name = artist
 
       song
     end
@@ -57,7 +57,7 @@ class Song
 
 
 
-    
+
   
 
 end
