@@ -20,6 +20,6 @@ class Song
     song.name = title
 
     return song
-
+  end
 
 end
