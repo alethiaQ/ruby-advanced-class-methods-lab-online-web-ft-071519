@@ -59,10 +59,10 @@ class Song
       artist = separated[0]
       title = separated[1].gsub(".mp3","")
 
-      song = self.create 
-      song.name = title 
-      song.artist_name = artist 
-      song 
+      song = self.create
+      song.name = title
+      song.artist_name = artist
+      song
     end
 
 
