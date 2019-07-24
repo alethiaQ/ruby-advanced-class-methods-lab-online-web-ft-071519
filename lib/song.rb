@@ -22,7 +22,7 @@ class Song
     return song
   end
 
-    def self.create_by_name(title)
+    def Song.create_by_name(title)
       song = self.new_by_name(title)
       @@all << song
     end
