@@ -43,7 +43,7 @@ class Song
 
     def Song.new_from_filename(info)
 
-      separated = info.slice!".mp3".split("-")
+      separated = info.slice!(".mp3").split("-")
       artist = separated[0]
       title = separated[1]
 
