@@ -19,5 +19,7 @@ class Song
     song = self.new
     song.name = title
 
+    return song
+
 
 end
