@@ -29,4 +29,9 @@ class Song
       song
     end
 
+    def Song.find_by_name(title)
+      @@all.find {|song| song.name == name}
+    end
+
+
 end
