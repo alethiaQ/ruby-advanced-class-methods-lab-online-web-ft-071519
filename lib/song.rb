@@ -39,7 +39,7 @@ class Song
           song.find_by_name(title)
           return
       end
-    
+
     end
       self.create_by_name(title)
   end
