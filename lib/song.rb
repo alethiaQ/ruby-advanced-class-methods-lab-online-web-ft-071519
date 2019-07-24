@@ -38,7 +38,7 @@ class Song
         if song.name == title
           song.find_by_name(title)
         else
-        self.create_by_name(title)
+        song.create_by_name(title)
       end
     end
   end
