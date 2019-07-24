@@ -45,7 +45,7 @@ class Song
 
       separated = info.split(" - ")
       artist = separated[0]
-      title = separated[1].delete(".mp3")
+      title = separated[1].gsub(".mp3","")
 
       song = self.new
       song.name = title
