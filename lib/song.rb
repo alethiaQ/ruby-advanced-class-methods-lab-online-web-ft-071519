@@ -33,7 +33,7 @@ class Song
       self.all.find {|song| song.name == title}
     end
 
-    def Song.find_or_create_by_name(title)
+    def self.find_or_create_by_name(title)
       self.all.include?(title) ? self.find_by_name(title) : self.create_by_name(title)
     end
 
